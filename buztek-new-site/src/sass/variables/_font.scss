@@ -1,0 +1,35 @@
+@import url("https://api.fontshare.com/v2/css?f[]=anton@400&f[]=switzer@600,701,501,601,700,400,401,300,301,500&display=swap");
+
+:root {
+  //font-size
+  --fs-350: 350px;
+  --fs-144: 144px;
+  --fs-72: 72px;
+  --fs-36: 36px;
+  --fs-22: 22px;
+  --fs-14: 14px;
+  --fs-12: 12px;
+
+  //character spacing
+  --cs--1-2: -1.2px;
+  --cs--1-3: -1.3px;
+  --cs--0-8: -0.8px;
+  --cs--0-12: -0.12px;
+  --cs--0-16: -0.16px;
+  --cs--0-18: -0.18px;
+  --cs--0-24: -0.24px;
+  --cs--0-38: -0.38px;
+  --cs--0-44: -1.44px;
+  --cs--2: 2px;
+  --cs--2-4: 2.4px;
+
+  //font family
+  --ff-heading: "Anton", serif;
+  --ff-para: "Switzer", sans-serif;
+
+  --padding: 2em;
+
+  @media (max-width: 500px) {
+    --padding: 1em;
+  }
+}

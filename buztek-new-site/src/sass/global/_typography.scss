@@ -1,0 +1,136 @@
+//MOBILE & TABLET
+
+h1 {
+  font-size: var(--fs-40);
+  font-weight: 900;
+  font-family: var(--ff-heading);
+  line-height: 0.8;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: var(--fs-35);
+  font-weight: 900;
+  font-family: var(--ff-heading);
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: var(--fs-25);
+  font-weight: 900;
+  font-family: var(--ff-heading);
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: var(--fs-16);
+  font-weight: bold;
+  font-family: var(--ff-para);
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: var(--fs-16);
+  font-family: var(--ff-para);
+  line-height: 1.1;
+}
+
+.cta {
+  font-size: var(--fs-25);
+  font-family: var(--ff-para);
+  font-weight: bold;
+  line-height: 1;
+}
+
+.sub-heading {
+  font-size: var(--fs-16);
+  font-style: italic;
+  font-family: var(--ff-para);
+  line-height: 1;
+}
+
+.services-nav-link-text,
+.nav-link-text {
+  font-family: var(--ff-para);
+  font-size: var(--fs-16);
+  font-weight: bold;
+  a {
+    text-decoration: none;
+    color: $black;
+    &:hover {
+      color: $blue;
+    }
+  }
+}
+
+//DESKTOP
+@media (min-width: $layout-breakpoint-desktop) {
+  h1 {
+    font-size: var(--fs-60);
+    font-weight: 900;
+    font-family: var(--ff-heading);
+    line-height: 0.8;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    font-size: var(--fs-40);
+    font-weight: 900;
+    font-family: var(--ff-heading);
+    line-height: 1;
+    text-transform: uppercase;
+  }
+
+  h3 {
+    font-size: var(--fs-35);
+    font-weight: 900;
+    font-family: var(--ff-heading);
+    line-height: 1;
+    text-transform: uppercase;
+  }
+
+  h4 {
+    font-size: var(--fs-20);
+    font-weight: bold;
+    font-family: var(--ff-para);
+    line-height: 1;
+    text-transform: uppercase;
+  }
+
+  p {
+    font-size: var(--fs-18);
+    font-family: var(--ff-para);
+    line-height: 1.1;
+  }
+
+  .cta {
+    font-size: var(--fs-30);
+    font-family: var(--ff-para);
+    font-weight: bold;
+    line-height: 1;
+  }
+
+  .sub-heading {
+    font-size: var(--fs-20);
+    font-style: italic;
+    font-family: var(--ff-para);
+    line-height: 1;
+  }
+
+  .nav-link-text,
+  .services-nav-link-text {
+    font-family: var(--ff-para);
+    font-size: var(--fs-18);
+    font-weight: bold;
+    a {
+      text-decoration: none;
+      color: $black;
+      &:hover {
+        color: $blue;
+      }
+    }
+  }
+}
