@@ -1,0 +1,40 @@
+.landing-container {
+  padding: 0 0.5em;
+}
+.header {
+  border-bottom: 2px solid $green;
+}
+
+.splash-heading {
+  white-space: nowrap;
+  padding: 1rem 0 1rem 0;
+}
+
+.splash-image-container {
+  padding: 4.25rem 0 1rem 0;
+}
+
+.splash-image {
+  aspect-ratio: 3/1;
+  // border: 2px solid $green;
+  width: 100%;
+  @media (max-width: $layout-breakpoint-tablet) {
+    aspect-ratio: 3/2;
+  }
+  @media (max-width: $layout-breakpoint-mobile) {
+    aspect-ratio: 1/1.5;
+  }
+}
+
+.splash-blurb-container {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 0 0 3rem 0;
+}
+
+.splash-blurb {
+  width: 45%;
+  @media (max-width: $layout-breakpoint-tablet) {
+    width: 100%;
+  }
+}

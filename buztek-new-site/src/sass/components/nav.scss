@@ -1,0 +1,33 @@
+.nav-bar {
+  border-bottom: 2px solid $green;
+  width: 100vw;
+  padding: 0.25em 1em;
+  position: sticky;
+  top: 0;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav-projects-container {
+  align-items: baseline;
+  width: calc(66%);
+}
+
+.nav-links-container {
+  align-items: center;
+  width: 20%;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-logo-container {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
