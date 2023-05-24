@@ -1,11 +1,11 @@
-import React from "react";
+import HeaderScroll from "./HeaderScroll";
 
 const Landing = () => {
   return (
     <main>
       <div className="landing-container">
         <div className="header">
-          <h1 className="splash-heading">DESIGN BUILD SECURE</h1>
+          <HeaderScroll />;
         </div>
         <div className="splash-image-container">
           <img
