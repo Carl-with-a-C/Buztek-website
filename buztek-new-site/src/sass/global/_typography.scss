@@ -25,10 +25,11 @@ h4 {
   font-size: var(--fs-22);
   font-family: var(--ff-para);
   line-height: 1;
+  font-weight: 500;
 }
 
 h5 {
-  font-size: var(--fs-16);
+  font-size: var(--fs-18);
   font-family: var(--ff-para);
   line-height: 1;
 }
@@ -37,12 +38,10 @@ p {
   font-size: var(--fs-14);
   font-family: var(--ff-para);
   line-height: 1.1;
-  letter-spacing: -0.5px;
 }
 
 .sub-heading {
   font-size: var(--fs-12);
-  font-style: italic;
   font-family: var(--ff-para);
   line-height: 1;
 }
@@ -74,6 +73,7 @@ p {
     font-size: var(--fs-36);
     font-family: var(--ff-para);
     line-height: 1;
+    font-weight: 500;
   }
 
   h5 {
@@ -86,12 +86,10 @@ p {
     font-size: var(--fs-14);
     font-family: var(--ff-para);
     line-height: 1.1;
-    letter-spacing: calc(-3%);
   }
 
   .sub-heading {
     font-size: var(--fs-12);
-    font-style: italic;
     font-family: var(--ff-para);
     line-height: 1;
   }

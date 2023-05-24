@@ -1,0 +1,119 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 3em;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+.about-title-sec {
+  display: block;
+  padding: 8em 5em 2em 2.5em;
+  width: 100%;
+}
+
+.about-mid-sec {
+  display: flex;
+  @media (max-width: $layout-breakpoint-tablet) {
+    flex-direction: column-reverse;
+  }
+}
+
+.about-left-sec {
+  display: flex;
+  width: 33.3%;
+  @media (max-width: $layout-breakpoint-tablet) {
+    width: 100%;
+  }
+}
+
+.about-cta-sec {
+  display: flex;
+  flex-direction: column;
+  gap: 1.75em;
+  padding: 23em 2.5em 2.5em 2.5em;
+  width: max-content;
+  button {
+    width: 7.5em;
+    height: 2.5em;
+    border: 2px solid $green;
+    border-radius: 50px;
+    color: $green;
+    background: none;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  @media (max-width: $layout-breakpoint-tablet) {
+    padding: 15em 2.5em 2.5em 2.5em;
+    gap: 1em;
+  }
+}
+
+.about-main-sec {
+  justify-content: flex-end;
+}
+
+.about-right-sec {
+  display: flex;
+  padding: 0 2.5em 0 0;
+  gap: 0.5em;
+  @media (max-width: $layout-breakpoint-tablet) {
+    padding: 0.5em;
+  }
+}
+
+.about-number-sec {
+  h3 {
+    font-family: var(--ff-para);
+  }
+}
+
+.about-img-container {
+  position: relative;
+  padding-top: 1em;
+
+  .about-img-landscape {
+    margin: 0 1em 0 0;
+    top: 0;
+    aspect-ratio: 2/1;
+    object-fit: cover;
+    width: 18em;
+  }
+  .about-img-portrait {
+    position: absolute;
+    top: 1em;
+    aspect-ratio: 1/2;
+    object-fit: cover;
+    width: 9em;
+    @media (max-width: $layout-breakpoint-mobile) {
+      top: 11em;
+      left: 0;
+      aspect-ratio: 2/1;
+      object-fit: cover;
+      width: 18em;
+    }
+  }
+}
+
+.about-bottom-sec {
+  padding-top: 1.5em;
+  @media (max-width: $layout-breakpoint-tablet) {
+    display: none;
+  }
+}
+
+.about-bottom-items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  li {
+    padding: 0 1em;
+    h5 {
+      padding-bottom: 0.5em;
+    }
+    p {
+      @media (max-width: $layout-breakpoint-desktop) {
+        font-size: 12px;
+      }
+    }
+  }
+}

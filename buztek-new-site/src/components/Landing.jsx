@@ -10,7 +10,7 @@ const Landing = () => {
         <div className="splash-image-container">
           <img
             className="splash-image"
-            src="https://images.pexels.com/photos/50711/board-electronics-computer-data-processing-50711.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            src="https://img.freepik.com/free-photo/sharp-stinging-insect-close-up-yellow-black-striped-generated-by-ai_188544-17689.jpg?w=2000&t=st=1684767234~exp=1684767834~hmac=4ef1a295bd00b7397d3230644dd75befd344fa125eee202e47ca966e6cfa4275"
             alt="hardware computer board"
           />
         </div>

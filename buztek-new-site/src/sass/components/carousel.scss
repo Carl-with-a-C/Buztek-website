@@ -1,0 +1,62 @@
+.carousel-container {
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1em;
+}
+
+.inner {
+  white-space: nowrap;
+  transition: transform 0.3s;
+  padding-bottom: 2em;
+}
+
+.carousel-item {
+  display: inline-flex;
+  flex-direction: column;
+  padding: 1em;
+}
+
+.carousel-item-header {
+  display: flex;
+  align-items: flex-end;
+  padding: 0 0 2.5em 0;
+  h1 {
+    letter-spacing: 40px;
+  }
+  @media (max-width: $layout-breakpoint-tablet) {
+    flex-direction: column;
+    align-items: flex-start;
+
+    h1 {
+      padding: 0.2em 0;
+      letter-spacing: 10px;
+    }
+  }
+}
+
+.carousel-item-footer {
+  white-space: normal;
+}
+
+.carousel-btns {
+  transform: translateY(1em);
+  display: flex;
+  justify-content: flex-end;
+  padding: 1em;
+  button {
+    background: none;
+    border: none;
+    color: $white;
+    cursor: pointer;
+  }
+}
+
+.indicator-numbers-active {
+  font-weight: bold;
+  p {
+    color: $green;
+  }
+}
