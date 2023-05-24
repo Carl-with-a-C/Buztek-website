@@ -1,9 +1,10 @@
 import "./sass/main.scss";
-import Wireframe from "./images/wireframe-grid.svg";
 
 import Nav from "./components/Nav";
 import Landing from "./components/Landing";
 import About from "./components/About";
+import Services from "./components/Services";
+import Process from "./components/Process";
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
       <Nav />
       <Landing />
       <About />
+      <Services />
+      <Process />
     </div>
   );
 }

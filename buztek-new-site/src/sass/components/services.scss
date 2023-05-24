@@ -1,0 +1,46 @@
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  padding: 9em 2.5em;
+  @media (max-width: $layout-breakpoint-tablet) {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 5fr;
+    row-gap: 5em;
+    padding: 5em 0.5em;
+  }
+}
+
+.service-details-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5em;
+  padding: 0 2em;
+  ul > li {
+    list-style-type: disc;
+  }
+}
+
+.service-btn-container {
+  display: flex;
+  align-items: flex-end;
+  gap: 2em;
+  button {
+    width: 7.5em;
+    height: 2.5em;
+    border: 2px solid $green;
+    border-radius: 50px;
+    color: $green;
+    background: none;
+    font-size: 22px;
+    font-weight: bold;
+  }
+}
+
+.pricing {
+  color: $green;
+}
+
+.ticker-text {
+  white-space: nowrap;
+  padding-bottom: 1rem;
+}
