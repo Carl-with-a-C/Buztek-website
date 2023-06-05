@@ -4,22 +4,35 @@
 .header {
   border-bottom: 2px solid $green;
   overflow: hidden;
+  opacity: 0;
+  overflow: hidden;
 }
 
 .splash-heading {
-  white-space: nowrap;
-  padding: 1rem 0 1rem 0;
+  padding: 1rem 0 0 0;
+  text-align: center;
+  transform: translateY(110%);
 }
 
 .splash-image-container {
-  padding: 4.25rem 0 1rem 0;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  overflow: hidden;
+  aspect-ratio: 3/1;
+  @media (max-width: $layout-breakpoint-tablet) {
+    aspect-ratio: 3/2;
+  }
+  @media (max-width: $layout-breakpoint-mobile) {
+    aspect-ratio: 1/1.5;
+  }
 }
 
 .splash-image {
-  aspect-ratio: 3/1;
   width: 100%;
   object-fit: cover;
   object-position: top;
+  opacity: 0;
+  transform: scale(0) translateY(-120%);
   @media (max-width: $layout-breakpoint-tablet) {
     aspect-ratio: 3/2;
   }
@@ -31,10 +44,11 @@
 .splash-blurb-container {
   display: flex;
   flex-direction: row-reverse;
-  padding: 0 0 3rem 0;
+  padding: 1rem 0 3rem 0;
 }
 
 .splash-blurb {
+  opacity: 0;
   width: 45%;
   @media (max-width: $layout-breakpoint-tablet) {
     width: 100%;

@@ -11,6 +11,11 @@
   align-items: center;
 }
 
+.nav-container > * {
+  opacity: 0;
+  transform: translateY(100%);
+}
+
 .nav-projects-container {
   align-items: baseline;
   width: calc(66%);
@@ -33,4 +38,7 @@
   flex: 1;
   display: flex;
   justify-content: flex-end;
+  h5 {
+    font-weight: bold;
+  }
 }

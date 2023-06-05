@@ -84,6 +84,7 @@ const Carousel = () => {
                     ? "indicator-numbers-active"
                     : "indicator-numbers"
                 }
+                key={index}
               >
                 <p>{item.number}</p>
               </button>
