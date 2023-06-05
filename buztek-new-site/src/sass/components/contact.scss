@@ -43,7 +43,7 @@
   right: 0.5em;
   height: 50%;
   img {
-    width: calc(25vw);
+    width: calc(33vw);
     aspect-ratio: 1/2;
     object-fit: none;
     object-position: 25% 10%;
@@ -62,8 +62,5 @@
   display: flex;
   flex-direction: column;
   gap: 1em;
-  padding-bottom: 5em;
-}
-
-.contact-image {
+  padding: 0 0 5em 2.5em;
 }
